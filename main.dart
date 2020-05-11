@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:image_cropper/image_cropper.dart';
@@ -26,8 +25,7 @@ class _camcropState extends State<camcrop> {
         width: 250,
         height: 250,
         fit: BoxFit.cover,
-        color: Colors.blue
-        ,
+        color: Colors.blue,
       );
     }
   }
@@ -50,7 +48,7 @@ class _camcropState extends State<camcrop> {
             backgroundColor: Colors.white,
           )
       );
-      this.setState( (){
+      this.setState((){
         _selectedFile = cropped;
       });
     }
@@ -77,13 +75,12 @@ class _camcropState extends State<camcrop> {
                   },
                   child: Text("device"),
                 )
-
               ],
             );
           }
       )
-
-      ) {
+      ) 
+        {
         case "cam":
           {
             getImage(ImageSource.camera);
@@ -136,4 +133,3 @@ class _camcropState extends State<camcrop> {
       );
     }
   }
-
