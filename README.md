@@ -1,2 +1,2 @@
 # dart
-use these file change in created flutter project and fix bug update depency and it is ready to use
+these files can be used to change and fix bug update dependency in Existing Flutter Project and it is ready to use 🙌
